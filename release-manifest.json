@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0.0",
+  "product": "Relay",
+  "version": "0.1.0-build-week",
+  "releaseCandidateTag": "relay-build-week-rc8",
+  "sourceCommit": "0cc2109d946a618469a754b68676b61dded52025",
+  "buildTimestamp": "2026-07-18T23:28:51.901Z",
+  "nodeVersion": "v22.23.1",
+  "supportedPlatform": "Linux x86_64",
+  "schemaVersions": [
+    "1.0.0"
+  ],
+  "pluginVersion": "0.1.0",
+  "dashboardVersion": "0.1.0-m6.7",
+  "dashboardAdapterVersions": {
+    "active": "1.0.0",
+    "recovery": "1.1.0-terminal-priority",
+    "planOnly": "1.0.0",
+    "externalEvidence": "1.0.0"
+  },
+  "liveEngineEntryPointVersion": "1.0.0",
+  "behaviorManifestVersion": "m6-verified-priority-behavior-v3",
+  "behaviorManifestBuilderSourceDigest": "8b3fc462b1f68209659c8a522d6c86b9ad16068d7fbfbf3151901a5ebb8e5edb",
+  "behaviorManifestSchemaDigest": "3231763d965a23f987c44a69df17c4edbcd5266ae59a6f59391e4612a1d1c009",
+  "documentationBehaviorContractVersion": "python-task-service-documentation-v1",
+  "verifiedDocumentationExampleCatalogueVersion": "python-task-service-documentation-examples-v1",
+  "documentationContractBuilderSourceDigest": "8b3fc462b1f68209659c8a522d6c86b9ad16068d7fbfbf3151901a5ebb8e5edb",
+  "documentationRecoveryEvidenceDigest": "678771ea2cefba5949e417aee3581f0073ecf26d1ae5b4c234aee0a1ff63f74b",
+  "packagedEngineDigest": "7f763d368a97907e8f5dfb53ad10f0545b84b75ffa84aa480d6c3aa4e94aa080",
+  "packagedResourceManifestDigest": "f46bf995cc276ef1502725a9de600a82223799a8960bf748dd44ad9abfeef119",
+  "sampleFixtureDigest": "9ed2e140ede09754d41474e81733b00094563c62804db1a132878c0cd3973593",
+  "replayManifestDigest": "f6c71b4a55b91031a7998bb70e4754c3c21d9a39131a513cbaf8fbaa0c9a0edb",
+  "license": "MIT",
+  "artifacts": {
+    "relay-0.1.0-build-week.tgz": "012a55659509ba31e5e53152d33d0f8892352100c98738b541d6af46949834b7",
+    "relay-demo-site-0.1.0-build-week.zip": "55972dccb0d6bb462824950cb76abef880bc9eddb08e94b90bc0509220df84b0",
+    "relay-judge-bundle-0.1.0-build-week.zip": "6cb6974d57dabedbae68428c74083f7aba53224aa2aaddfe2d5f8b5874c61abc",
+    "relay-plugin-0.1.0-build-week.zip": "40b14163ebf926350ed949677e9e5ee22b15e06b6de42739008243d4d056af7b"
+  },
+  "cleanInstallResult": "PASSED",
+  "packagedLocalResult": "PASSED_ZERO_MODEL_TURNS",
+  "packagedLiveResult": "PASSED_CODEX_LOGIN_FOUR_TURNS",
+  "packagedLiveEvidenceDigest": "f582d225b4c1631e14ce9be175f6bdf0946fc07c824eadb3f6599568c03b1846",
+  "securityResult": "PASSED",
+  "knownLimitations": [
+    "Controlled python-task-service profile only",
+    "Windows, macOS, and ARM unverified"
+  ]
+}
